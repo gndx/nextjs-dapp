@@ -1,0 +1,45 @@
+{
+  "name": "nextjs-dapp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "eslint src/ --fix"
+  },
+  "dependencies": {
+    "next": "12.0.10",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "10.4.2",
+    "eslint": "8.9.0",
+    "eslint-config-next": "12.0.10",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-jsx-a11y": "6.5.1",
+    "eslint-plugin-prettier": "4.0.0",
+    "postcss": "8.4.6",
+    "prettier": "2.5.1",
+    "tailwindcss": "3.0.22"
+  },
+  "description": "Minimal configuration for Next.js",
+  "main": "src/_app.js",
+  "keywords": [
+    "javascript",
+    "next",
+    "react"
+  ],
+  "author": "Oscar Barajas <oscar@gndx.dev>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gndx/nextjs-dapp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gndx/nextjs-dapp/issues"
+  },
+  "homepage": "https://github.com/gndx/nextjs-dapp#readme"
+}
